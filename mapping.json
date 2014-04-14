@@ -1,0 +1,129 @@
+{
+    "tuned": {
+        "mappings": {
+            "fnf1x": {
+                "_all": {
+                    "enabled": false
+                },
+                "_source": {
+                    "enabled": false
+                },
+                "properties": {
+                    "byte": {
+                        "type": "long"
+                    },
+                    "da": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "dp": {
+                        "type": "integer"
+                    },
+                    "out": {
+                        "type": "integer"
+                    },
+                    "pkt": {
+                        "type": "long"
+                    },
+                    "pr": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sa": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sp": {
+                        "type": "integer"
+                    },
+                    "ts": {
+                        "type": "date",
+                        "format": "YYYY-MM-dd HH:mm:ss"
+                    }
+                }
+            },
+            "fnf3x": {
+                "_all": {
+                    "enabled": false
+                },
+                "_source": {
+                    "enabled": false
+                },
+                "properties": {
+                    "byte": {
+                        "type": "long"
+                    },
+                    "da": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "dp": {
+                        "type": "integer"
+                    },
+                    "out": {
+                        "type": "integer"
+                    },
+                    "pkt": {
+                        "type": "long"
+                    },
+                    "pr": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sa": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sp": {
+                        "type": "integer"
+                    },
+                    "ts": {
+                        "type": "date",
+                        "format": "YYYY-MM-dd HH:mm:ss"
+                    }
+                }
+            },
+            "fnf2x": {
+                "_all": {
+                    "enabled": false
+                },
+                "_source": {
+                    "enabled": false
+                },
+                "properties": {
+                    "byte": {
+                        "type": "long"
+                    },
+                    "da": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "dp": {
+                        "type": "integer"
+                    },
+                    "out": {
+                        "type": "integer"
+                    },
+                    "pkt": {
+                        "type": "long"
+                    },
+                    "pr": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sa": {
+                        "type": "string",
+                        "index": "not_analyzed"
+                    },
+                    "sp": {
+                        "type": "integer"
+                    },
+                    "ts": {
+                        "type": "date",
+                        "format": "YYYY-MM-dd HH:mm:ss"
+                    }
+                }
+            }
+        }
+    }
+}
